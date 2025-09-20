@@ -1,6 +1,6 @@
 # Tidy Up - Comment Cleaner
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
+[![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
 [![Downloads](https://img.shields.io/badge/downloads-2-red.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
 [![Rating](https://img.shields.io/badge/rating-5.0-yellow.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
 
@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Stats
 
-- **Version**: 1.0.3
+- **Version**: 1.0.4
 - **Last Updated**: Sept - 2025
 - **VS Code Version**: ^1.74.0
 - **Languages Supported**: 10+

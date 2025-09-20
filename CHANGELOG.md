@@ -2,7 +2,7 @@
 
 All notable changes to the "Tidy Up - Comment Cleaner" extension will be documented in this file.
 
-## [1.0.3] - 2025-09-20
+## [1.0.4] - 2025-09-20
 
 ### Added
 - Initial release of Tidy Up - Comment Cleaner

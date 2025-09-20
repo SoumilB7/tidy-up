@@ -2,7 +2,7 @@
   "name": "tidy-up",
   "displayName": "Tidy Up - Comment Cleaner",
   "description": "Remove all AI comments from your code files with a single keybind. Supports multiple languages and preserves important comments marked with $.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "SoumilB7",
   "author": "SoumilB7",
   "engines": {
