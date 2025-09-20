@@ -1,8 +1,8 @@
 # Tidy Up - Comment Cleaner
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
-[![Downloads](https://img.shields.io/badge/downloads-0-red.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
-[![Rating](https://img.shields.io/badge/rating-0.0-yellow.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
+[![Downloads](https://img.shields.io/badge/downloads-2-red.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
+[![Rating](https://img.shields.io/badge/rating-5.0-yellow.svg)](https://marketplace.visualstudio.com/items?itemName=SoumilB7.tidy-up)
 
 
 A VS Code extension that removes all AI comments from your code files with a single keybind. Perfect for cleaning up code before sharing, documentation, or when you need a comment-free version of your files.
