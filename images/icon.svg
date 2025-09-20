@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- AI circuit pattern in background -->
+  <g opacity="0.15" fill="#6366f1">
+    <!-- Circuit lines -->
+    <path d="M20 30 L40 30 L50 40 L70 40" stroke="#6366f1" stroke-width="1.5" fill="none"/>
+    <path d="M80 20 L100 20 L108 28 L108 45" stroke="#6366f1" stroke-width="1.5" fill="none"/>
+    <path d="M15 70 L35 70 L45 80 L65 80" stroke="#6366f1" stroke-width="1.5" fill="none"/>
+    <path d="M75 100 L95 100 L105 90 L115 90" stroke="#6366f1" stroke-width="1.5" fill="none"/>
+    
+    <!-- Circuit nodes -->
+    <circle cx="40" cy="30" r="2"/>
+    <circle cx="100" cy="20" r="2"/>
+    <circle cx="35" cy="70" r="2"/>
+    <circle cx="95" cy="100" r="2"/>
+    <circle cx="70" cy="40" r="1.5"/>
+    <circle cx="108" cy="45" r="1.5"/>
+    <circle cx="65" cy="80" r="1.5"/>
+    <circle cx="115" cy="90" r="1.5"/>
+  </g>
+  
+  <!-- AI text in background -->
+  <text x="64" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#94a3b8" opacity="0.3">AI</text>
+  
+  <!-- Main brush -->
+  <g transform="translate(64, 74)">
+    <!-- Brush handle (vertical) -->
+    <rect x="-3" y="-40" width="6" height="35" rx="3" fill="#8b4513"/>
+    
+    <!-- Metal ferrule -->
+    <rect x="-5" y="-8" width="10" height="8" rx="1" fill="#c0c0c0"/>
+    <line x1="-4" y1="-6" x2="4" y2="-6" stroke="#999999" stroke-width="0.5"/>
+    <line x1="-4" y1="-4" x2="4" y2="-4" stroke="#999999" stroke-width="0.5"/>
+    <line x1="-4" y1="-2" x2="4" y2="-2" stroke="#999999" stroke-width="0.5"/>
+    
+    <!-- Sweeping brush bristles (horizontal, pointing down, thicker) -->
+    <g fill="#4a4a4a">
+      <rect x="-8" y="0" width="2" height="18" rx="1"/>
+      <rect x="-6" y="0" width="2" height="20" rx="1"/>
+      <rect x="-4" y="0" width="2" height="19" rx="1"/>
+      <rect x="-2" y="0" width="2" height="21" rx="1"/>
+      <rect x="0" y="0" width="2" height="20" rx="1"/>
+      <rect x="2" y="0" width="2" height="19" rx="1"/>
+      <rect x="4" y="0" width="2" height="21" rx="1"/>
+      <rect x="6" y="0" width="2" height="18" rx="1"/>
+      <rect x="8" y="0" width="2" height="20" rx="1"/>
+    </g>
+    
+    <!-- Paint/cleaning effect -->
+    <g opacity="0.6">
+      <circle cx="-8" cy="-15" r="2" fill="#ef4444"/>
+      <circle cx="10" cy="-20" r="1.5" fill="#f97316"/>
+      <circle cx="-6" cy="-8" r="1" fill="#eab308"/>
+    </g>
+    
+    <!-- Sparkle effects to show cleaning/AI magic -->
+    <g fill="#fbbf24" opacity="0.8">
+      <path d="M-15,-10 L-13,-8 L-15,-6 L-17,-8 Z"/>
+      <path d="M15,-25 L17,-23 L15,-21 L13,-23 Z"/>
+      <circle cx="-12" cy="-25" r="0.8"/>
+      <circle cx="12" cy="-12" r="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Subtle gradient overlay -->
+  <defs>
+    <radialGradient id="shine" cx="40%" cy="30%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#shine)"/>
+</svg>

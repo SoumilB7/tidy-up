@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment that should be removed -->
+<html>
+<head>
+    <title>Test Page</title>
+    <!-- $ This comment should be preserved -->
+</head>
+<body>
+    <!-- Regular comment should be removed -->
+    <h1>Hello World</h1>
+    
+    <!-- $ TODO: Add more content -->
+    
+    <script>
+        // JavaScript inside HTML
+        const message = "Hello // world"; // This comment should be removed
+        const url = "https://example.com"; // This comment should be removed
+        
+        /* $ This JavaScript comment should be preserved */
+        
+        function test() {
+            // $ This comment should be preserved
+            console.log("Test"); // This comment should be removed
+        }
+    </script>
+    
+    <style>
+        /* CSS comment should be removed */
+        body {
+            color: red; /* Inline CSS comment should be removed */
+        }
+        
+        /* $ This CSS comment should be preserved */
+        
+        .test {
+            background: blue; /* Another inline comment should be removed */
+        }
+    </style>
+</body>
+</html>
